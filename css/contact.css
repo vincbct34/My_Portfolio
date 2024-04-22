@@ -1,0 +1,80 @@
+.contact h2 {
+  color: white;
+  font-size: la;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.contact {
+  padding: 50px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(3px);
+}
+form {
+  display: grid;
+  gap: 15px;
+}
+.input-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.input-field {
+  width: 100%;
+}
+.input-field .item {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+.input-field .item:focus {
+  border-color: black;
+  outline: none;
+}
+.textarea-field textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+.textarea-field textarea:focus {
+  border-color: black;
+  outline: none;
+}
+.contact button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: .5s;
+}
+.contact button:hover {
+  transform: scale(1.1);
+  color: white;
+  background-color: black;
+}
+.field .error-txt {
+  font-size: 14.5px;
+  color: red;
+  font-weight: 700;
+  text-align: left;
+  display: none;
+}
+.error {
+  border-color: red !important;
+}
+.error-txt.active {
+  display: block;
+  color: red;
+}
