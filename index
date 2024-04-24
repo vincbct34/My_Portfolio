@@ -32,10 +32,10 @@
     </div>
     <h1>My Portfolio</h1>
     <div class="navbar">
-      <a href = "index.html"><button>Home</button></a>
-      <a href = "about.html"><button>About me</button></a>
-      <a href = "projects.html"><button>Projects</button></a>
-      <a href = "contact.html"><button>Contact</button></a>
+      <a href = "index"><button>Home</button></a>
+      <a href = "about"><button>About me</button></a>
+      <a href = "projects"><button>Projects</button></a>
+      <a href = "contact"><button>Contact</button></a>
     </div>
     <div class="sidebar">
       <a href="https://www.github.com/vincbct34" target="_blank">
