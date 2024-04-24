@@ -29,6 +29,19 @@
   transition: filter .5s;
   margin-left: 10px;
 }
+.sidebar button span {
+  cursor: pointer;
+  transition: opacity .5s, transform .5s;
+  transform: translateX(-20px);
+  opacity: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 .sidebar button:hover img {
   filter: invert(100%);
+}
+.sidebar button:hover span {
+  display: inline;
+  opacity: 1;
+  transform: translateX(0);
 }
